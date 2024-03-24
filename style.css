@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    font-family:Arial;
+    border:border-box;
+}
+.main{
+    height:730px;
+    background-image:url("clouds.jpg"); 
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.d1{
+    height:700px;
+    width:500px;
+    background-color:rgb(195, 190, 190);
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:0.6;
+    border-radius: 40px;
+    border:4px solid rgb(230, 133, 42);
+}
+.d2{
+    color:navy;
+    font-size:30px;
+    display:flex;
+    margin:10px;
+    align-items:center;
+    justify-content: center;
+    border-radius:3rem;
+}
+.d3{
+    height:40px;
+    width:330px;
+   margin:30px;
+   border:2px solid rgb(230, 133, 42);
+}
+input{
+    height:40px;
+    width:330px;
+    margin:30px 80px;
+    color:navy;
+    border:0.2rem solid orange;
+    font-size:25px;
+    text-align: center;
+}
+input:hover{
+    border:0.3rem solid rgb(231, 181, 90);
+}
+button{
+    height:40px;
+    width:250px;
+    margin:20px 130px;
+    color:navy;
+    background-color:rgb(253, 181, 114);
+    border:2px solid rgb(249, 126, 11);
+    font-size:20px;
+    cursor:pointer;
+}
+button:hover{
+    border:2px solid navy;
+}
+#temp-div p {
+    font-size: 60px;
+    margin-top: -30px;
+    margin-left:185px;
+    color:navy;
+}
+
+#weather-info {
+    font-size: 20px;
+    margin-left:20px;
+    color:navy;
+    text-align:center;
+}
+
+#weather-icon {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 10px; 
+    margin-bottom: 0;
+    display: none;
+}
+
+#hourly-forecast {
+    margin-top: 50px;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hourly-item {
+    flex: 0 0 auto;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    color:navy;
+}
+
+.hourly-item img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+#hourly-heading {
+    color: #fff;
+    margin-top: 10px;
+}
