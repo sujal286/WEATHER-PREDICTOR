@@ -4,6 +4,7 @@ This is a  simple api weather predictor made by using html,css and javascript.
 STEPS TO RUN THE CODE:
 
 Go to https://openweathermap.org
+<br>
 Create a free account
 Navigate to the API keys section
 Generate a key
