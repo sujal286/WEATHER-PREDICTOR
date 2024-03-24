@@ -2,6 +2,7 @@
 
 This is a  simple api weather predictor made by using html,css and javascript.
 <br>
+<br>
 STEPS TO RUN THE CODE:
 <br>
 <br>
